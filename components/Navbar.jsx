@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'motion/react'
+import ContactButton from './ContactButton';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,7 @@ function Navbar() {
     { href: "/products", label: "Products" },
     { href: "/support", label: "Support Topics" },
     { href: "/about", label: "About" },
-    { href: "/contact", label: "Contact" },
+    // { href: "/contact", label: "Contact" },
   ];
 
   return (
@@ -32,8 +33,11 @@ function Navbar() {
               <Link href={item.href} className={"text-white text-lg hover:opacity-70 transition-opacity"}>
                 {item.label}
               </Link>
+              
             </li>
           ))}
+                <ContactButton />
+
         </ul>
 
         {/* Hamburger Button */}
@@ -95,6 +99,7 @@ function Navbar() {
                     </Link>
                   </motion.li>
                 ))}
+                <ContactButton />
               </ul>
             </motion.div>
           </>
