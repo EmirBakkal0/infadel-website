@@ -5,8 +5,8 @@ export default function Home() {
     <main>
       <Carousel />
       <section className="container mx-auto ">
-        <div className="grid md:grid-cols-2 p-5">
-          <div className="">
+        <div className="grid md:grid-cols-2 p-10 ">
+          <div className="flex flex-col justify-center gap-5">
             <h2 className="text-3xl font-[delius] font-bold my-5">Why you should choose Infadel?</h2>
             <p className=" font-[delius]">
               Our babies’ health and happiness are the highest priority for every
@@ -20,7 +20,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex justify-center ">
-            <img src="stock1.jpg" alt="" className="max-h-1/2 rounded-xl"/>
+            <img src="stock1.jpg" alt="" width={400} className=" rounded-xl"/>
           </div>
 
         </div>
