@@ -39,7 +39,7 @@ function About() {
         <motion.div
           className=" bg-[var(--background)] text-[var(--foreground)] p-10 rounded-lg "
           initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 0.9, scale: 1 }}
+          animate={{ opacity: 0.8, scale: 1 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
         >
           <motion.div

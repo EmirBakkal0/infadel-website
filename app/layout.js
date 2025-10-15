@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Delius} from "next/font/google";
+import { Geist, Geist_Mono, Delius, Fugaz_One} from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 
@@ -18,6 +18,12 @@ const delius = Delius({
   weight: ["400"],
 });
 
+const fugaz = Fugaz_One({
+  variable: "--font-fugaz",
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
 export const metadata = {
   title: "Infadel - Nutrition for a Healthy Start",
   description: "Infadel provides reliable, science-based nutrition for babies and children.",
@@ -27,7 +33,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${delius.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${delius.variable} ${fugaz.variable} antialiased`}
       >
 
         <Navbar/>

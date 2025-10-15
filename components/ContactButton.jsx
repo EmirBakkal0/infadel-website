@@ -10,7 +10,7 @@ export default function ContactButton() {
     <>
       <button
         onClick={() => setIsFormOpen(true)}
-        className="  text-white cursor-pointer text-lg hover:opacity-70 transition-opacity"
+        className="  text-[var(--foreground)] block cursor-pointer text-lg hover:opacity-70 transition-opacity"
       >
         Contact
       </button>

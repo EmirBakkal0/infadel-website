@@ -4,7 +4,8 @@ export default function Home() {
   return (
     <main>
       <Carousel />
-      <section className="container mx-auto ">
+      <section>
+        <div className="container mx-auto  ">
         <div className="grid md:grid-cols-2 p-10 ">
           <div className="flex flex-col justify-center gap-5">
             <h2 className="text-3xl font-[delius] font-bold my-5">Why you should choose Infadel?</h2>
@@ -24,8 +25,13 @@ export default function Home() {
           </div>
 
         </div>
+        
+        </div>
+        <div className="flex flex-col items-center p-10 bg-[#FFCAD4]">
+          <h1 className="text-3xl font-[delius] font-bold pb-10">Our Products</h1>
+          <img src="circular.png" alt="products" width={600} className="rounded-3xl pt-8 "/>
 
-
+        </div>
       </section>
     </main>
   );

@@ -12,32 +12,34 @@ function Navbar() {
   };
 
   const menuItems = [
-    { href: "/products", label: "Products" },
-    { href: "/support", label: "Support Topics" },
-    { href: "/about", label: "About" },
-    // { href: "/contact", label: "Contact" },
+    { href: "/products", label: "Products", type: "link" },
+    { href: "/support", label: "Support Topics", type: "link" },
+    { href: "/about", label: "About", type: "link" },
+    { type: "button" }, // ContactButton
   ];
 
   return (
-    <nav className='container mx-auto '>
-      <div className='flex justify-between items-center p-5'>
+    <nav className='sticky top-0 w-full bg-[#F7AF9D] z-50 opacity-90 shadow-md h-24'>
+      <div className='container mx-auto'>
+        <div className='flex justify-between items-center p-5'>
         {/* Logo */}
         <Link href="/">
-          <img src="infadel.png" alt="Infadel Logo" className='h-13 bg-white rounded-2xl p-1 ' />
+          <img src="infadel.png" alt="Infadel Logo" className='h-13 rounded-2xl p-1 ' />
         </Link>
 
         {/* Desktop Menu */}
         <ul className='hidden md:flex gap-10 items-center'>
-          {menuItems.map((item) => (
-            <li key={item.href}>
-              <Link href={item.href} className={"text-white text-lg hover:opacity-70 transition-opacity"}>
-                {item.label}
-              </Link>
-              
+          {menuItems.map((item, index) => (
+            <li key={item.href || `button-${index}`}>
+              {item.type === "button" ? (
+                <ContactButton />
+              ) : (
+                <Link href={item.href} className={"text-[var(--foreground)] text-lg hover:opacity-70 transition-opacity"}>
+                  {item.label}
+                </Link>
+              )}
             </li>
           ))}
-                <ContactButton />
-
         </ul>
 
         {/* Hamburger Button */}
@@ -48,15 +50,15 @@ function Navbar() {
         >
           <motion.span
             animate={isOpen ? { rotate: 45, y: 8 } : { rotate: 0, y: 0 }}
-            className='w-6 h-0.5 bg-logo block'
+            className='w-6 h-0.5 bg-white block'
           />
           <motion.span
             animate={isOpen ? { opacity: 0 } : { opacity: 1 }}
-            className='w-6 h-0.5 bg-logo block'
+            className='w-6 h-0.5 bg-white block'
           />
           <motion.span
             animate={isOpen ? { rotate: -45, y: -8 } : { rotate: 0, y: 0 }}
-            className='w-6 h-0.5 bg-logo block'
+            className='w-6 h-0.5 bg-white block'
           />
         </button>
       </div>
@@ -85,26 +87,31 @@ function Navbar() {
               <ul className='flex flex-col gap-6 p-8 mt-20'>
                 {menuItems.map((item, index) => (
                   <motion.li
-                    key={item.href}
+                    key={item.href || `button-${index}`}
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}
                   >
-                    <Link
-                      href={item.href}
-                      onClick={toggleMenu}
-                      className='text-logo text-lg block hover:opacity-70 transition-opacity'
-                    >
-                      {item.label}
-                    </Link>
+                    {item.type === "button" ? (
+                      <ContactButton />
+                    ) : (
+                      <Link
+                        href={item.href}
+                        onClick={toggleMenu}
+                        className=' text-lg block hover:opacity-70 transition-opacity'
+                      >
+                        {item.label}
+                      </Link>
+                    )}
                   </motion.li>
                 ))}
-                <ContactButton />
               </ul>
             </motion.div>
           </>
         )}
       </AnimatePresence>
+      </div>
+      
     </nav>
   )
 }
