@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "@/components/ProductCard";
+import ProductCardCarousel from "@/components/ProductCarouselCard";
 function Products() {
   return (
 
@@ -16,29 +17,31 @@ function Products() {
         </div>
 
     </div>
-
+      <h1 className="text-3xl md:text-4xl font-bold text-center mb-5 mt-20 font-[delius]">
+        Infadel Infant and Follow on Milk
+      </h1>
       <div className="grid md:grid-cols-3 gap-6" 
       >
       
-        <Card
-          img="0.jpg"
-          imgDesc="Infadel 1"
+        <ProductCardCarousel
+          imgfolder="infadel1"
+          length={4}
           header="Infadel 1"
           p="Infant Formula was developed to carefully meet your baby's nutritional needs. It can be used from birth as a sole source of nutrition or as part of a two-supplement diet.
 
 You can use Infadel 1 Infant Formula for the first six months, then transition to complementary feeding after six months, and supplement this period with Infadel 2 Follow-on Milk."
         />
 
-        <Card
-          img="4.jpg"
-          imgDesc="Infadel 2"
+        <ProductCardCarousel
+          imgfolder="infadel2"
+          length={3}
           header="Infadel 2"
           p="Follow on Milk was developed to carefully meet your baby's nutritional needs. It can be used as part of a two-supplement diet from 6 months onwards.
 
 You can use Infadel 2 Follow on Milk from 6 to 12 months, and after 12 months, you can supplement this period with Infadel 3 Follow on Milk."
-        /><Card
-          img="8.jpg"
-          imgDesc="Infadel 3"
+        /><ProductCardCarousel
+          imgfolder="infadel3"
+          length={3}
           header="Infadel 3"
           p="Follow on Milk was developed to carefully meet your baby's nutritional needs. It can be used as part of a two-supplement diet from 12 months onwards.
 
@@ -46,6 +49,70 @@ You can use Infadel 3 Follow On Milk between 12 and 36 months, and after 36 mont
         />
 
       </div>
+
+      <h1 className="text-3xl md:text-4xl font-bold text-center mb-5 mt-20 font-[delius]">
+        ALAC Cereal and Baby Foods 
+      </h1>
+
+      <div className="grid md:grid-cols-2 gap-6">
+        <ProductCardCarousel
+          imgfolder="alacCereal"
+          length={11}
+          header="ALAC Cereals  "
+          p="Breast milk is exclusively recommended for the first six months to support healthy baby growth. However, after six months, the transition to solid foods begins. During this stage, breast milk or formula is supplemented with solid foods and this is where the carefully crafted ALAC collection comes in.
+
+ALAC instant cereal product are designed to make your baby's transition from breast milk to solid foods smooth and enjoyable. Their soft texture ensures easy swallowing, while they provide essential vitamins and minerals to support your baby’s growth.
+
+With ALAC, your baby can be fed safely and enjoy a pleasant introduction to solid foods."
+        />
+        <ProductCardCarousel
+          imgfolder="alacBabyFood"
+          length={6}
+
+          header="ALAC Baby Food "
+          p="Around six months of age, babies begin their transition to solid foods, marking an exciting milestone for both little ones and parents. This stage opens the door to new tastes and experiences, but preparation, hygiene, and time management can sometimes be challenging. That is where ALAC Baby Food comes in, carefully prepared to make this important stage easier and more enjoyable.
+ALAC Baby Food Puree types are perfect for your baby’s first steps into solid foods. They support the development of taste buds and are completely free from preservatives, additives, and added sugars. Every spoonful preserves the natural flavor and goodness of fruits and vegetables.
+ALAC Baby Food offers convenience for parents and a safe, nutritious start for babies. Each first taste marks a meaningful step in shaping your child’s lifelong eating habits."
+        />
+      </div>
+
+
+<div className="grid md:grid-cols-2 mt-16 mb-10 justify-center items-center gap-12 font-[delius]">
+        <img src="table.png" alt="" className="rounded-xl" />
+        <div>
+          <h1 className="text-3xl md:text-4xl font-bold text-center mb-5"> Products for the Rest </h1>
+          <p>
+          Infadel offers a range of nutritional products designed to support the health and well-being of mothers, teenagers, and children. Our products are carefully formulated to meet the unique nutritional needs of each life stage, providing essential vitamins, minerals, and proteins for optimal growth and development.
+          </p>
+        </div>
+
+    </div>
+
+
+      <h1 className="text-3xl md:text-4xl font-bold text-center mb-5 mt-20 font-[delius]">
+        MUMYLAC, TEENLAC, KIDSLAC
+      </h1>
+      <div className="grid md:grid-cols-3 gap-6">
+        <ProductCardCarousel 
+          imgfolder="mumylac"
+          length={6}
+          header="MUMYLAC  "
+          p="Becoming a mother is an intense journey, both physically and emotionally. The body requires increased nutrition before, during, and after pregnancy, as well as throughout breastfeeding. During this time, a healthy diet plays a vital role not only in the mother’s well-being but also in the baby’s development. MUMYLAC, available in protein-rich cacao and vanilla flavors, supports mothers by helping maintain the health of both mother and child."
+        />
+        <ProductCardCarousel 
+          imgfolder="teenlac"
+          length={3}
+          header="TEENLAC  "
+          p="Teenagers have a fast and dynamic transition from childhood to adulthood, a period characterized by rapid growth, hormonal changes, and intense physical development. Nutrition during these years forms the foundation for lifelong health. TEENLAC provides a natural, food-based source of essential vitamins and proteins that support energy, growth, concentration, and immunity. Unlike artificial protein powders meant only as supplements, TEENLAC delivers balanced, wholesome nutrition that fuels healthy development from within."
+        />
+        <ProductCardCarousel 
+          imgfolder="kidslac"
+          length={3}
+          header="KIDSLAC"
+          p="Healthy growth and development in children are strongly linked to proper nutrition.  Vitamins and proteins are key to building strong muscles and bones, supporting immunity, and promoting healthy mental performance. KIDSLAC is specially formulated to provide the essential nutrients children need during their growth years. "
+        />
+      </div>
+
     </div>
   );
 }
