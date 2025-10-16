@@ -16,7 +16,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 p-10 ">
           <div className="flex flex-col justify-center gap-5">
             <h2 className="text-3xl font-[delius] font-bold my-5">Why you should choose Infadel?</h2>
-            <p className=" font-[delius]">
+            <p className=" font-[delius] pb-4">
               Our babies’ health and happiness are the highest priority for every
               parent. Proper and reliable nutrition from day one is the cornerstone
               of healthy development. This is where Infadel Formula and Follow-On

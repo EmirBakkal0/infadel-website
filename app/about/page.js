@@ -28,14 +28,14 @@ function About() {
 
   return (
     <div
-      className="h-screen  "
+      className="h-screen md:p-32 font-[delius]"
       style={{
         backgroundImage: "url('/about.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="container mx-auto flex justify-center items-center h-full">
+      <div className="container mx-auto flex justify-center items-center ">
         <motion.div
           className="bg-[#FFCAD4] text-[var(--foreground)] p-10 rounded-lg "
           initial={{ opacity: 0, scale: 0.95 }}
@@ -47,36 +47,36 @@ function About() {
             initial="hidden"
             animate="visible"
           >
-            <motion.h1 variants={itemVariants} className="text-3xl font-bold my-2">
+            <motion.h1 variants={itemVariants} className="text-2xl  md:text-4xl  font-bold pb-4">
               About Us
             </motion.h1>
-            <motion.p variants={itemVariants} className="text-lg">
+            <motion.p variants={itemVariants} className="md:text-lg">
               Infadel was established to support the healthy development of babies
               and children. From day one, we have been dedicated to creating
               reliable, science-based products tailored to the needs of our most
               precious beings, our children.
             </motion.p>
-            <motion.h2 variants={itemVariants} className="text-2xl font-bold my-5">
+            <motion.h2 variants={itemVariants} className="text-xl font-bold my-5">
               Our Mission
             </motion.h2>
-            <motion.p variants={itemVariants} className="text-lg my-5">
+            <motion.p variants={itemVariants} className="md:text-lg my-5">
               Our mission is to provide essential vitamin, mineral, and protein
               supplements needed by every age group, from infancy to adolescence,
               with the utmost care, safety, and precision.
             </motion.p>
-            <motion.h2 variants={itemVariants} className="text-2xl font-bold my-5">
+            <motion.h2 variants={itemVariants} className="text-xl font-bold my-5">
               Our Vision
             </motion.h2>
-            <motion.p variants={itemVariants} className="text-lg">
+            <motion.p variants={itemVariants} className="md:text-lg">
               Our vision is to become a globally trusted family brand that helps
               shape healthy futures for children through products developed to the
               highest international standards.
             </motion.p>
-            <motion.p variants={itemVariants} className="text-lg my-5">
+            <motion.p variants={itemVariants} className="md:text-lg my-5">
               Because at Infadel, we know that healthy generations are the
               foundation of a strong future.
             </motion.p>
-            <motion.p variants={itemVariants} className="text-lg my-5">
+            <motion.p variants={itemVariants} className="md:text-lg my-5">
               Thank you for trusting Infadel to be a part of your child's journey.
               We are honored to support you in nurturing a healthy and happy future
               for your little ones.
