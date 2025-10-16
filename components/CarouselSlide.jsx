@@ -13,7 +13,10 @@ function CarouselSlide(props) {
           style={{
             backgroundImage: `url(${props.img})`,
           }}
-        ></div>
+        >
+
+
+        </div>
       </div>
     </SplideSlide>
   );

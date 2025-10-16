@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function SupportCard(props) {
   return (
-    <div className='group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-logo/30'>
+    <div className='group bg-[var(--color-card)] rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-logo/30'>
       {/* Image Container */}
       {props.img && (
         <div className='relative h-48 overflow-hidden'>
@@ -19,7 +19,7 @@ function SupportCard(props) {
       {/* Content Container */}
       <div className='p-6'>
         {/* Header */}
-        <h3 className='text-xl font-semibold text-gray-800 mb-3 group-hover:text-logo transition-colors duration-300'>
+        <h3 className='text-xl font-semibold text-gray-800 mb-3 group-hover:text-gray-600 transition-colors duration-300'>
           {props.header}
         </h3>
         
@@ -33,7 +33,7 @@ function SupportCard(props) {
         {/* Learn More Link */}
         <Link 
           href={props.link}
-          className='inline-flex items-center gap-2 text-logo font-medium hover:gap-3 transition-all duration-300 group/link'
+          className='inline-flex items-center gap-2 text-black font-medium hover:gap-3 transition-all duration-300 group/link'
         >
           Learn More 
           <svg 

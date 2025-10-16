@@ -1,9 +1,16 @@
 import Image from "next/image";
 import Carousel from "@/components/Carousel";
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <main>
       <Carousel />
+      <div className="hidden md:absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:flex flex-row justify-center items-center bg-[var(--color-card)] opacity-90 p-5 rounded-2xl">
+        <img src="logo.png" alt="Infadel Logo" width={300} className="p-6  border-r-black border-r-2 "/>
+        <h1 className="text-4xl font-[delius] p-4 m-2">Nutrition for a healthy start</h1>
+        
+      </div>
       <section>
         <div className="container mx-auto  ">
         <div className="grid md:grid-cols-2 p-10 ">
@@ -27,11 +34,43 @@ export default function Home() {
         </div>
         
         </div>
-        <div className="flex flex-col items-center p-10 bg-[#FFCAD4]">
-          <h1 className="text-3xl font-[delius] font-bold pb-10">Our Products</h1>
-          <img src="circular.png" alt="products" width={600} className="rounded-3xl pt-8 "/>
+        <div className="flex flex-col items-center p-10 bg-[var(--color-card)]">
+          <h1 className="text-3xl font-[delius] font-bold pb-4">Explore Our Full Range of Products</h1>
+          <p className="font-[delius] pb-8">
+            Discover our comprehensive selection of nutritional products designed
+            to support the health and well-being of babies, mothers, teenagers,
+            and children. Click the image below to explore our products.
+          </p>
+          <Link href="/products" className="hover:scale-105 hover:opacity-80 transition-transform">
+            <img src="products.png" alt="products" width={800} className="rounded-2xl " />
+          </Link>
+        </div> 
 
+        <div className="container grid md:grid-cols-2 mx-auto  justify-center gap-5 p-10">
+
+          <div className="flex flex-col justify-center gap-5">
+            <h2 className="text-3xl font-[delius] font-bold my-5">Our Commitment to Quality</h2>
+          <p className="font-[delius]">
+            At Infadel, we understand that every baby is unique, and so are their nutritional needs. That's why we are committed to providing the highest quality products, backed by scientific research and formulated with care. Our team of experts continuously monitors and improves our formulas to ensure they meet the evolving needs of infants and toddlers.
+          </p>
+          </div>
+          <div className="flex justify-center ">
+            <img src="stock3.jpg" alt="" width={400} className=" rounded-xl"/>
+          </div>
         </div>
+
+      <div className="flex flex-col items-center p-10 bg-[#FFCAD4]">
+
+          <h1 className="text-3xl font-[delius] font-bold pb-2">Support Topics</h1>
+          <p className="font-[delius] pb-8">
+            We are here to help you with any questions or concerns you may have about our products. Explore our support topics below by clicking the image.
+          </p>
+           <Link href="/support" className="hover:scale-105 hover:opacity-80 transition-transform">
+            <img src="stock4.jpg" alt="products" width={800} className="rounded-2xl " />
+          </Link>
+      </div>
+
+
       </section>
     </main>
   );

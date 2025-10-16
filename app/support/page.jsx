@@ -51,7 +51,7 @@ function Support() {
       <div className='container mx-auto max-w-7xl'> 
         {/* Page Header */}
         <div className='mb-12 text-center'>
-          <h1 className='text-4xl md:text-5xl font-bold text-logo mb-4'>
+          <h1 className='text-4xl md:text-5xl font-bold text-black mb-4'>
             Support Topics
           </h1>
           <p className='text-lg text-gray-600'>
@@ -61,7 +61,7 @@ function Support() {
 
         {/* Pregnancy Section */}
         <div className='mb-16'>
-          <h2 className='text-3xl font-bold mb-8 text-logo border-b-2 border-logo pb-2'>
+          <h2 className='text-4xl text-center font-bold mb-8 text-black pb-2'>
             {supportData.pregnancy.title}
           </h2>
 
@@ -86,7 +86,7 @@ function Support() {
 
         {/* Newborn Care Section */}
         <div className='mb-16'>
-          <h2 className='text-3xl font-bold mb-8 text-logo border-b-2 border-logo pb-2'>
+          <h2 className='text-4xl font-bold mb-8 text-center pb-2'>
             {supportData.newborn.title}
           </h2>
           <div className='grid md:grid-cols-3 gap-6'>

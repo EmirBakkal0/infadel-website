@@ -12,9 +12,10 @@ function Navbar() {
   };
 
   const menuItems = [
+    {href: "/", label: "Home", type: "link" },
     { href: "/products", label: "Products", type: "link" },
     { href: "/support", label: "Support Topics", type: "link" },
-    { href: "/about", label: "About", type: "link" },
+    { href: "/about", label: "About Us", type: "link" },
     { type: "button" }, // ContactButton
   ];
 
@@ -24,7 +25,7 @@ function Navbar() {
         <div className='flex justify-between items-center p-5'>
         {/* Logo */}
         <Link href="/">
-          <img src="infadel.png" alt="Infadel Logo" className='h-13 rounded-2xl p-1 ' />
+          <img src="logo.png" alt="Infadel Logo" className='h-13 rounded-2xl p-1 hover:scale-110 hover:opacity-80 transition' />
         </Link>
 
         {/* Desktop Menu */}

@@ -3,7 +3,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import CarouselSlide from "./CarouselSlide";
 
-const slides = Array.from(Array(4).keys());
+const slides = Array.from(Array(5).keys());
 
 export default function Carousel() {
   return (
@@ -24,6 +24,7 @@ export default function Carousel() {
           // xs="75"
         />
       ))}
+      
     </Splide>
   );
 }

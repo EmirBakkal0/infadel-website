@@ -37,7 +37,7 @@ function About() {
     >
       <div className="container mx-auto flex justify-center items-center h-full">
         <motion.div
-          className=" bg-[var(--background)] text-[var(--foreground)] p-10 rounded-lg "
+          className="bg-[#FFCAD4] text-[var(--foreground)] p-10 rounded-lg "
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 0.8, scale: 1 }}
           transition={{ duration: 0.5, ease: "easeOut" }}

@@ -27,7 +27,7 @@ export default function ProductCardCarousel(props) {
         ))}
       </Splide>
 
-      <h1 className='text-center text-3xl text-bold p-2'>{props.header}</h1>
+      <h1 className='text-center text-3xl text-bold p-2 pt-9'>{props.header}</h1>
         <p className='p-2'>
             {props.p}
         </p>
