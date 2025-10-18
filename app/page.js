@@ -8,7 +8,7 @@ export default function Home() {
       <Carousel />
       <div className="hidden md:absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:flex flex-row justify-center items-center bg-[var(--color-card)] opacity-90 p-5 rounded-2xl">
         <img src="logo.png" alt="Infadel Logo" width={300} className="p-6  border-r-black border-r-2 "/>
-        <h1 className="text-4xl font-[delius] p-4 m-2">Nutrition for a healthy start</h1>
+        <h1 className="text-4xl font-[delius] p-4 m-2">Happy Bellies Happy Babies</h1>
         
       </div>
       <section>

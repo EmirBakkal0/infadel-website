@@ -25,7 +25,7 @@ const fugaz = Fugaz_One({
 });
 
 export const metadata = {
-  title: "Infadel - Nutrition for a Healthy Start",
+  title: "Infadel - Happy Bellies Happy Babies",
   description: "Infadel provides reliable, science-based nutrition for babies and children.",
 };
 

@@ -9,26 +9,26 @@ function Support() {
         {
           title: "Before Pregnancy",
           cards: [
-            { header: "Pre-Pregnancy Nutrition", link: "/support/nutrition", img: "stock2.jpg" },
-            { header: "Pre-Pregnancy Exercise", link: "/support/exercise", img: "stock1.jpg" },
-            { header: "Pre-Pregnancy Mental Health", link: "/support/mhealth", img: "stock2.jpg" }
+            { header: "Pre-Pregnancy Nutrition", link: "/support/support-categories/nutrition", img: "stock2.jpg" },
+            { header: "Pre-Pregnancy Exercise", link: "/support/support-categories/exercise", img: "stock1.jpg" },
+            { header: "Pre-Pregnancy Mental Health", link: "/support/support-categories/mental-health", img: "stock2.jpg" }
           ]
         },
         {
           title: "During Pregnancy",
           cards: [
-            { header: "Pregnancy Signs", link: "/support/psigns" , img: "stock1.jpg" },
-            { header: "Pregnancy Calendar", link: "/support/pcalendar" , img: "stock2.jpg" },
-            { header: "Nutrition During Pregnancy", link: "/support/pnutrition", img: "stock1.jpg" },
-            { header: "Exercise During Pregnancy", link: "/support/pexercise" , img: "stock2.jpg" },
-            { header: "Pregnancy Weight Gain", link: "/support/pweight", img: "stock1.jpg"  },
-            { header: "Mental Health During Pregnancy", link: "/support/pmental", img: "stock2.jpg"  }
+            { header: "Pregnancy Signs", link: "/support/support-categories/pregnancy-signs" , img: "stock1.jpg" },
+            { header: "Pregnancy Calendar", link: "/support/support-categories/pregnancy-calendar" , img: "stock2.jpg" },
+            { header: "Nutrition During Pregnancy", link: "/support/support-categories/nutrition-during-pregnancy", img: "stock1.jpg" },
+            { header: "Exercise During Pregnancy", link: "/support/support-categories/exercise-during-pregnancy" , img: "stock2.jpg" },
+            { header: "Pregnancy Weight Gain", link: "/support/support-categories/pregnancy-weight-gain", img: "stock1.jpg"  },
+            { header: "Mental Health During Pregnancy", link: "/support/support-categories/mental-health-during-pregnancy", img: "stock2.jpg"  }
           ]
         },
         {
           title: "Postpartum",
           cards: [
-            { header: "Postpartum Recovery", link: "/support/postpartum" , img: "stock2.jpg" }
+            { header: "Postpartum Recovery", link: "/support/support-categories/postpartum" , img: "stock2.jpg" }
           ]
         }
       ]
@@ -36,12 +36,12 @@ function Support() {
     newborn: {
       title: "Newborn Care",
       cards: [
-        { header: "Breastfeeding & Ideal Positions", link: "/support/breastfeeding", img: "stock1.jpg" },
-        { header: "Newborn Feedings", link: "/support/newborn-feedings", img: "stock1.jpg" },
-        { header: "Weight Gain in Newborn Babies", link: "/support/weight-gain-newborns", img: "stock1.jpg" },
-        { header: "Newborn Sleep", link: "/support/newborn-sleep", img: "stock1.jpg" },
-        { header: "Baby Feeding", link: "/support/baby-feeding", img: "stock1.jpg" },
-        { header: "Feeding Problems in Newborns and Babies", link: "/support/feeding-problems", img: "stock1.jpg" }
+        { header: "Breastfeeding & Ideal Positions", link: "/support/support-categories/breastfeeding", img: "stock1.jpg" },
+        { header: "Newborn Feedings", link: "/support/support-categories/newborn-feedings", img: "stock1.jpg" },
+        { header: "Weight Gain in Newborn Babies", link: "/support/support-categories/weight-gain-newborns", img: "stock1.jpg" },
+        { header: "Newborn Sleep", link: "/support/support-categories/newborn-sleep", img: "stock1.jpg" },
+        { header: "Baby Feeding", link: "/support/support-categories/baby-feeding", img: "stock1.jpg" },
+        { header: "Feeding Problems in Newborns and Babies", link: "/support/support-categories/feeding-problems", img: "stock1.jpg" }
       ]
     }
   }

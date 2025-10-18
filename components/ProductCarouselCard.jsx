@@ -9,7 +9,7 @@ export default function ProductCardCarousel(props) {
   return (
     <div className="flex flex-col  items-center py-10 p-3 opacity-90 bg-[#FFCAD4] rounded-2xl font-[delius]">
       <Splide
-      className="w-[300px] "
+      className="md:w-[200px] lg:w-[250px] xl:w-[300px] "
         options={{
           rewind: true,
           autoplay: true,

@@ -83,7 +83,7 @@ function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'tween', duration: 0.3 }}
-              className='fixed top-0 right-0 h-full w-64 bg-[var(--background)] shadow-lg z-40 md:hidden'
+              className='fixed top-0 right-0 h-full w-64 bg-[#F7AF9D] shadow-lg z-40 md:hidden'
             >
               <ul className='flex flex-col gap-6 p-8 mt-20'>
                 {menuItems.map((item, index) => (

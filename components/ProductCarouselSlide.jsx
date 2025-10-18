@@ -7,7 +7,7 @@ function ProductCarouselSlide(props) {
 
   return (
     <SplideSlide className={`flex`}>
-      <img src={props.img} alt=""  className="rounded-2xl" />
+      <img src={props.img} alt=""   className="rounded-2xl object-contain bg-white" />
     </SplideSlide>
   );
 }

@@ -18,15 +18,15 @@ function Products() {
 
     </div>
       <h1 className="text-3xl md:text-4xl font-bold text-center mb-5 mt-20 font-[delius]">
-        Infadel Infant and Follow on Milk
+        INFADEL Infant and Follow on Milk
       </h1>
       <div className="grid md:grid-cols-3 gap-6" 
       >
       
         <ProductCardCarousel
           imgfolder="infadel1"
-          length={4}
-          header="Infadel 1"
+          length={3}
+          header="INFADEL 1"
           p="Infant Formula was developed to carefully meet your baby's nutritional needs. It can be used from birth as a sole source of nutrition or as part of a two-supplement diet.
 
 You can use Infadel 1 Infant Formula for the first six months, then transition to complementary feeding after six months, and supplement this period with Infadel 2 Follow-on Milk."
@@ -35,20 +35,54 @@ You can use Infadel 1 Infant Formula for the first six months, then transition t
         <ProductCardCarousel
           imgfolder="infadel2"
           length={3}
-          header="Infadel 2"
+          header="INFADEL 2"
           p="Follow on Milk was developed to carefully meet your baby's nutritional needs. It can be used as part of a two-supplement diet from 6 months onwards.
 
 You can use Infadel 2 Follow on Milk from 6 to 12 months, and after 12 months, you can supplement this period with Infadel 3 Follow on Milk."
         /><ProductCardCarousel
           imgfolder="infadel3"
           length={3}
-          header="Infadel 3"
+          header="INFADEL 3"
           p="Follow on Milk was developed to carefully meet your baby's nutritional needs. It can be used as part of a two-supplement diet from 12 months onwards.
 
 You can use Infadel 3 Follow On Milk between 12 and 36 months, and after 36 months, you can support this period with KIDSLAC."
         />
-
+        
       </div>
+
+      <h1 className="text-3xl md:text-4xl font-bold text-center mb-5 mt-20 font-[delius]">
+        Infadel Medical Formula
+      </h1>
+      
+      <div className="grid md:grid-cols-3 gap-6" >
+        <ProductCardCarousel
+          imgfolder="infadelLF"
+          length={1}
+          header="INFADEL Lactose Free"
+          p="From the moment they are born, babies receive their most essential support for growth and development through nutrition. However, some babies may experience intolerance or difficulty digesting milk sugar, known as lactose.
+
+Lactose is a natural sugar found in milk and dairy products. During digestion, it is broken down by an enzyme called lactase so it can be absorbed by the body. Some babies, however, do not produce enough of this enzyme. In such cases, INFADEL LF, a specially developed lactose-free infant formula, helps babies feed comfortably and grow healthily.                                                                                                                            IMPORTANT: Every baby's metabolism is different; Therefore, the selection of appropriate food should be made under the supervision of a specialist."
+        /><ProductCardCarousel
+          imgfolder="infadel3"
+          length={3}
+          header="INFADEL ANTI-REFLUX "
+          p="Reflux is a common issue during breastfeeding. In the first months after birth, many babies regurgitate milk frequently because the stomach valve is still immature. This is usually a normal and temporary condition; however, when reflux becomes frequent and uncomfortable, the use of INFADEL AR anti-reflux formula can help.
+
+Anti-reflux (AR) infant formulas are specially formulated to help prevent the upward flow of stomach contents in babies.                                                                                                 IMPORTANT: Every baby's metabolism is different; Therefore, the selection of appropriate food should be made under the supervision of a specialist."
+        /><ProductCardCarousel
+          imgfolder="infadel3"
+          length={3}
+          header="INFADEL PREMATURE"
+          p="Every baby is unique, but premature babies need even more special care because they arrive a little earlier than expected.
+
+Proper nutrition plays a vital role in their growth journey. Since their stomach, intestinal, and immune systems are still developing, they may have difficulty digesting food. INFADEL PRE, a specially formulated premature baby formula, provides the nutritional support your baby needs for healthy growth and development.            IMPORTANT: Every baby's metabolism is different; Therefore, the selection of appropriate food should be made under the supervision of a specialist."
+        />
+      </div>
+
+
+      
+
+
 
       <h1 className="text-3xl md:text-4xl font-bold text-center mb-5 mt-20 font-[delius]">
         ALAC Cereal and Baby Foods 
@@ -57,7 +91,7 @@ You can use Infadel 3 Follow On Milk between 12 and 36 months, and after 36 mont
       <div className="grid md:grid-cols-2 gap-6">
         <ProductCardCarousel
           imgfolder="alacCereal"
-          length={11}
+          length={13}
           header="ALAC Cereals  "
           p="Breast milk is exclusively recommended for the first six months to support healthy baby growth. However, after six months, the transition to solid foods begins. During this stage, breast milk or formula is supplemented with solid foods and this is where the carefully crafted ALAC collection comes in.
 
@@ -80,7 +114,7 @@ ALAC Baby Food offers convenience for parents and a safe, nutritious start for b
 <div className="grid md:grid-cols-2 mt-16 mb-10 justify-center items-center gap-12 font-[delius]">
         <img src="table.png" alt="" className="rounded-xl" />
         <div>
-          <h1 className="text-3xl md:text-4xl font-bold text-center mb-5"> Products for the Rest </h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-center mb-5"> Products for Mothers and Growing Children</h1>
           <p>
           Infadel offers a range of nutritional products designed to support the health and well-being of mothers, teenagers, and children. Our products are carefully formulated to meet the unique nutritional needs of each life stage, providing essential vitamins, minerals, and proteins for optimal growth and development.
           </p>

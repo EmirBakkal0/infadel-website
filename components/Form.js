@@ -38,27 +38,29 @@ function Form({ isOpen, onClose }) {
   return (
   <AnimatePresence>
     {isOpen && (
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.3 }}
+      <div
         className="fixed top-0 left-0 w-svw h-svh z-20"
         onClick={onClose}
       >
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <motion.div 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.3 }}
+          className="absolute inset-0 bg-black/50"
+        ></motion.div>
         <div className="relative flex w-full justify-center items-center h-full m-2">
           <motion.div
-            initial={{ scale: 0.8, opacity: 0, y: 50 }}
-            animate={{ scale: 1, opacity: 1, y: 0 }}
-            exit={{ scale: 0.8, opacity: 0, y: 50 }}
+            initial={{ scale: 0.8, y: 50 }}
+            animate={{ scale: 1, y: 0 }}
+            exit={{ scale: 0.8, y: 50 }}
             transition={{ 
               type: "spring", 
               damping: 25, 
               stiffness: 300,
               duration: 0.4 
             }}
-            className="relative z-30 transform bg-white rounded-2xl shadow-2xl max-w-md w-full p-8"
+            className="relative z-30 transform bg-white opacity-100 rounded-2xl shadow-2xl max-w-md w-full p-8"
             onClick={(e) => e.stopPropagation()}
           >
             <motion.button
@@ -201,7 +203,7 @@ function Form({ isOpen, onClose }) {
             )}
           </motion.div>
         </div>
-      </motion.div>
+      </div>
     )}
   </AnimatePresence>
   );
