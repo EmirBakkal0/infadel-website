@@ -63,15 +63,15 @@ You can use Infadel 3 Follow On Milk between 12 and 36 months, and after 36 mont
 
 Lactose is a natural sugar found in milk and dairy products. During digestion, it is broken down by an enzyme called lactase so it can be absorbed by the body. Some babies, however, do not produce enough of this enzyme. In such cases, INFADEL LF, a specially developed lactose-free infant formula, helps babies feed comfortably and grow healthily.                                                                                                                            IMPORTANT: Every baby's metabolism is different; Therefore, the selection of appropriate food should be made under the supervision of a specialist."
         /><ProductCardCarousel
-          imgfolder="infadel3"
-          length={3}
+          imgfolder="infadelAR"
+          length={1}
           header="INFADEL ANTI-REFLUX "
           p="Reflux is a common issue during breastfeeding. In the first months after birth, many babies regurgitate milk frequently because the stomach valve is still immature. This is usually a normal and temporary condition; however, when reflux becomes frequent and uncomfortable, the use of INFADEL AR anti-reflux formula can help.
 
 Anti-reflux (AR) infant formulas are specially formulated to help prevent the upward flow of stomach contents in babies.                                                                                                 IMPORTANT: Every baby's metabolism is different; Therefore, the selection of appropriate food should be made under the supervision of a specialist."
         /><ProductCardCarousel
-          imgfolder="infadel3"
-          length={3}
+          imgfolder="infadelPRE"
+          length={1}
           header="INFADEL PREMATURE"
           p="Every baby is unique, but premature babies need even more special care because they arrive a little earlier than expected.
 
