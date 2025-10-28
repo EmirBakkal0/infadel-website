@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Nutrition() {
   return (
-    <div className="font-[delius]">
+    <div className="">
       <SH>Pre Pregnancy Nutrition: Preparing for a New Chapter in Life</SH>
       <SP>
         Pregnancy is not just the process of bringing a baby into the world — it
@@ -117,7 +117,7 @@ function SH({ children }) {
 
 function SH2({ children }) {
   return (
-    <header className="mb-8 mt-4">
+    <header className=" mt-4">
       <h2 className="text-2xl font-bold mb-4">{children}</h2>
     </header>
   );

@@ -9,20 +9,20 @@ function Support() {
         {
           title: "Before Pregnancy",
           cards: [
-            { header: "Pre-Pregnancy Nutrition", link: "/support/support-categories/nutrition", img: "stock2.jpg" },
-            { header: "Pre-Pregnancy Exercise", link: "/support/support-categories/exercise", img: "stock1.jpg" },
-            { header: "Pre-Pregnancy Mental Health", link: "/support/support-categories/mental-health", img: "stock2.jpg" }
+            { header: "Pre-Pregnancy Nutrition", link: "/support/support-categories/pre-nutrition", img: "support/nutrition.jpg" },
+            { header: "Pre-Pregnancy Exercise", link: "/support/support-categories/pre-exercise", img: "support/exercise.jpg" },
+            { header: "Pre-Pregnancy Mental Health", link: "/support/support-categories/pre-mental-health", img: "support/mental-health.jpg" }
           ]
         },
         {
           title: "During Pregnancy",
           cards: [
-            { header: "Pregnancy Signs", link: "/support/support-categories/pregnancy-signs" , img: "stock1.jpg" },
-            { header: "Pregnancy Calendar", link: "/support/support-categories/pregnancy-calendar" , img: "stock2.jpg" },
-            { header: "Nutrition During Pregnancy", link: "/support/support-categories/nutrition-during-pregnancy", img: "stock1.jpg" },
-            { header: "Exercise During Pregnancy", link: "/support/support-categories/exercise-during-pregnancy" , img: "stock2.jpg" },
-            { header: "Pregnancy Weight Gain", link: "/support/support-categories/pregnancy-weight-gain", img: "stock1.jpg"  },
-            { header: "Mental Health During Pregnancy", link: "/support/support-categories/mental-health-during-pregnancy", img: "stock2.jpg"  }
+            { header: "Pregnancy Signs", link: "/support/support-categories/pregnancy-signs" , img: "support/sign.jpg" },
+            { header: "Pregnancy Calendar", link: "/support/support-categories/pregnancy-calendar" , img: "support/calendar.jpg" },
+            { header: "Nutrition During Pregnancy", link: "/support/support-categories/nutrition-during-pregnancy", img: "support/nutrition2.jpg" },
+            { header: "Exercise During Pregnancy", link: "/support/support-categories/exercise-during-pregnancy" , img: "support/exercise-p.jpg" },
+            { header: "Pregnancy Weight Gain", link: "/support/support-categories/pregnancy-weight-gain", img: "support/pregnancy.jpg"  },
+            { header: "Mental Health During Pregnancy", link: "/support/support-categories/mental-health-during-pregnancy", img: "support/mental-health2.jpg"  }
           ]
         },
         {
@@ -37,11 +37,11 @@ function Support() {
       title: "Newborn Care",
       cards: [
         { header: "Breastfeeding & Ideal Positions", link: "/support/support-categories/breastfeeding", img: "stock1.jpg" },
-        { header: "Newborn Feedings", link: "/support/support-categories/newborn-feedings", img: "stock1.jpg" },
-        { header: "Weight Gain in Newborn Babies", link: "/support/support-categories/weight-gain-newborns", img: "stock1.jpg" },
-        { header: "Newborn Sleep", link: "/support/support-categories/newborn-sleep", img: "stock1.jpg" },
-        { header: "Baby Feeding", link: "/support/support-categories/baby-feeding", img: "stock1.jpg" },
-        { header: "Feeding Problems in Newborns and Babies", link: "/support/support-categories/feeding-problems", img: "stock1.jpg" }
+        { header: "Newborn Feedings", link: "/support/support-categories/newborn-feedings", img: "support/newborn-feeding.jpg" },
+        { header: "Weight Gain in Newborn Babies", link: "/support/support-categories/weight-gain-newborns", img: "support/baby.jpg" },
+        { header: "Newborn Sleep", link: "/support/support-categories/newborn-sleep", img: "support/baby-sleeping.jpg" },
+        { header: "Baby Feeding", link: "/support/support-categories/baby-feeding", img: "support/baby-feeding.jpg" },
+        { header: "Feeding Problems in Newborns and Babies", link: "/support/support-categories/feeding-problems", img: "support/baby-feeding2.jpg" }
       ]
     }
   }
