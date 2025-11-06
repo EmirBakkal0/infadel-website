@@ -1,3 +1,19 @@
+Live Link: [click here](https://infadel.com.tr)
+
+<img width="1851" height="3766" alt="image" src="https://github.com/user-attachments/assets/54f400dd-1856-42af-954a-da0186d80466" />
+
+
+<img width="1851" height="4994" alt="image" src="https://github.com/user-attachments/assets/b663eba7-a191-4ee8-a449-143841ddd984" />
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
