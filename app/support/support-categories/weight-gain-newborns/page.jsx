@@ -1,4 +1,5 @@
 import React from "react";
+import { SH, SH2, SH3, SP, STip } from "@/components/SupportComponents";
 
 export default function WeightGainNewborns() {
   return (
@@ -12,7 +13,7 @@ export default function WeightGainNewborns() {
         A newborn enters a period of growth and development from the moment they are born. In this process, gaining weight is one of the most basic indicators of the baby's nutrition and health. However, every baby is different; therefore, trends and growth curves are as important as raw numbers.
       </SP>
 
-      <SH2>📉 Weight Loss and Recovery in the Early Days</SH2>
+      <SH2>Weight Loss and Recovery in the Early Days</SH2>
       <SP>
         Babies generally lose 5–10% of their birth weight after birth. This is considered normal.
       </SP>
@@ -23,7 +24,7 @@ export default function WeightGainNewborns() {
         If significant weight loss occurs, then feeding method, breastfeeding technique, or health condition should be reviewed.
       </SP>
 
-      <SH2>📆 Expected Rate of Weight Gain</SH2>
+      <SH2>Expected Rate of Weight Gain</SH2>
       <SP>
         In the first months, weight gain is rapid; over time this rate slows:
       </SP>
@@ -37,7 +38,7 @@ export default function WeightGainNewborns() {
         By 12 months: many babies weigh about three times their birth weight.
       </SP>
 
-      <SH2>📊 Why Each Baby's Gain Differs</SH2>
+      <SH2> Why Each Baby's Gain Differs</SH2>
       <SP>
         Weight gain is not just related to nutrition; many factors play a role:
       </SP>
@@ -57,7 +58,7 @@ export default function WeightGainNewborns() {
         Activity level
       </SP>
 
-      <SH2>✅ Tips & Observations to Watch</SH2>
+      <SH2> Tips & Observations to Watch</SH2>
       <SP>
         The number of wet and dirty diapers is a good indicator of whether the baby is being fed adequately (for example, 5‑7 wet diapers per day).
       </SP>
@@ -68,34 +69,4 @@ export default function WeightGainNewborns() {
   );
 }
 
-function SH({ children }) {
-  return (
-    <header className="mb-5 text-center">
-      <h1 className="text-4xl font-bold mb-6">{children}</h1>
-    </header>
-  );
-}
 
-function SH2({ children }) {
-  return (
-    <header className=" mt-4">
-      <h2 className="text-2xl font-bold mb-4">{children}</h2>
-    </header>
-  );
-}
-
-function SH3({ children }) {
-  return (
-    <header className=" mt-4">
-      <h3 className="text-xl font-bold mb-4">{children}</h3>
-    </header>
-  );
-}
-
-function SP({ children }) {
-  return <p className="mb-4">{children}</p>;
-}
-
-function STip({ children }) {
-  return <strong className=" text-yellow-600 ">{children}</strong>;
-}
