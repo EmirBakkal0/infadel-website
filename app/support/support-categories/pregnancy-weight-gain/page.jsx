@@ -4,6 +4,10 @@ export default function PregnancyWeightGain() {
   return (
     <div className="">
       <SH>Pregnancy Weight Gain: Finding Healthy Boundaries</SH>
+      <div className=" flex justify-center  mb-10">
+        <img src="/support/pregnancy.jpg" alt="Pregnancy Weight Gain" width={640} />
+      </div>
+
       <SP>
         Pregnancy is a time of gentle transformation. Gaining weight during these months is expected, even essential — it’s part of how your body nurtures another life. Yet, it’s not just the quantity of weight that matters, but how and where those kilos are accumulated. A balanced gain supports both you and your baby on this journey.
       </SP>
@@ -45,9 +49,7 @@ export default function PregnancyWeightGain() {
       </STip>
 
       <SH2>Patterns Over the Trimesters</SH2>
-      <SP>  
-        <b>First Trimester (Weeks 1–12):</b> Gains tend to be minimal; some women even lose weight due to nausea or appetite changes.
-      </SP>
+      
       <SP>  
           <b>First Trimester (Weeks 1–12):</b> Gains tend to be minimal; some women even lose weight due to nausea or appetite changes.
         </SP><SP>  

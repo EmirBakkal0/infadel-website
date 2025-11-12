@@ -4,6 +4,9 @@ export default function Postpartum() {
   return (
     <div className="">
       <SH>Exercise During Pregnancy: Move Your Body with Love</SH>
+      <div className=" flex justify-center  mb-10">
+        <img src="/stock2.jpg" alt="Postpartum Exercise" width={640}  />
+      </div>
       <SP>
         Pregnancy is not just a physical transformation; it's a spiritual journey, a process of rediscovery. To experience this special period in a healthier, more comfortable, and stronger way, exercising can be one of the gentlest gifts you give your body.
       </SP>

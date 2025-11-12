@@ -3,7 +3,11 @@ import React from "react";
 export default function PregnancySigns() {
   return (
     <div className="">
+      
       <SH>Possible Early Signs of Pregnancy</SH>
+      <div className=" flex justify-center  mb-10">
+        <img src="/support/sign.jpg" alt="Pregnancy Signs"  width={640}/>
+      </div>
       <SP>
         Below are common signals that may appear during the first weeks of
         pregnancy. They might not look the same for every woman—some may notice

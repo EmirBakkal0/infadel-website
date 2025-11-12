@@ -4,6 +4,9 @@ export default function PreMentalHealth() {
   return (
     <div className="">
       <SH>Pre‑Pregnancy Mental Health: A Journey of Inner Readiness</SH>
+      <div className=" flex justify-center  mb-10">
+        <img src="/support/mental-health.jpg" alt="Pre Pregnancy Mental Health" width={640}  />
+      </div>
       <SP>
         Pregnancy is not only a transformation of the body, but also of the
         spirit. Before embarking on this path, preparing ourselves mentally lays

@@ -4,6 +4,9 @@ export default function PreExercise() {
   return (
     <div className="">
       <SH>Pre‑Pregnancy Exercise: Prepare Your Body and Mind for Birth</SH>
+      <div className=" flex justify-center  mb-10">
+        <img src="/support/exercise.jpg" alt="Pre Pregnancy Exercise" width={640}/>
+      </div>
       <SP>
         Pregnancy may be one of life’s most special journeys. Yet before
         embarking on this path, thoughtful preparations can greatly influence
@@ -25,43 +28,42 @@ export default function PreExercise() {
 
       <SH3>1. Enhances Fertility</SH3>
       <SP>
-        {" "}
         Regular exercise positively influences hormonal balance. Conditions such
         as excess weight or insulin resistance may negatively affect ovulation.
         An active lifestyle can help regulate the menstrual cycle and increase
-        the chances of conceiving.{" "}
+        the chances of conceiving.
       </SP>
       <SH3>2. Reduces Stress and Calms the Mind</SH3>
       <SP>
         During exercise, endorphins (the “feel-good” hormones) are released,
         balancing mood and reducing anxiety. It’s a natural way to cope with the
-        stress that can accompany planning a pregnancy.{" "}
+        stress that can accompany planning a pregnancy.
       </SP>
 
-      <SH3>Strengthens and Prepares the Body</SH3>
+      <SH3>3. Strengthens and Prepares the Body</SH3>
       <SP>
         Strengthening pelvic floor, back, abdominal, and leg muscles helps
         prevent discomfort during pregnancy and eases the birthing process.
       </SP>
-      <SH3>Supports Healthy Weight Control</SH3>
+      <SH3>4. Supports Healthy Weight Control</SH3>
       <SP>
         Reaching and maintaining a healthy weight before pregnancy reduces risks
         during gestation. Exercise can help you lose excess weight or maintain
         your target weight.
       </SP>
 
-      <SH3>Improves Sleep Quality </SH3>
+      <SH3>5. Improves Sleep Quality </SH3>
 
       <SP>
         Regular movement aids in falling asleep and promotes deeper, more
         restorative sleep — boosting both mental and physical resilience.
       </SP>
-       <SH3>Improves Sleep Quality </SH3>
+       <SH3>6. Enhances Metabolic Health</SH3>
 
       <SP>
-    Physical activity enhances insulin sensitivity and metabolic balance. This is especially beneficial in conditions like PCOS (polycystic ovary syndrome), potentially improving fertility.
+        Physical activity enhances insulin sensitivity and metabolic balance. This is especially beneficial in conditions like PCOS (polycystic ovary syndrome), potentially improving fertility.
       </SP>
-       <SH3>Boosts Self‑Confidence</SH3>
+       <SH3>7. Boosts Self‑Confidence</SH3>
 
       <SP>
       A healthy connection with your body strengthens the confidence needed during pregnancy. An expectant mother who knows and trusts her body faces this journey more serenely.
@@ -70,7 +72,7 @@ export default function PreExercise() {
 
       <SH2>Which Exercises Are Suitable?</SH2>
       <SP>
-During pre‑pregnancy, prioritize sustainable and safe movements over high-intensity workouts. Here are some recommended types:
+        During pre‑pregnancy, prioritize sustainable and safe movements over high-intensity workouts. Here are some recommended types:
       </SP>
 
       <ul className="list-disc list-inside">

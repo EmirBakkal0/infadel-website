@@ -36,7 +36,7 @@ function Support() {
     newborn: {
       title: "Newborn Care",
       cards: [
-        { header: "Breastfeeding & Ideal Positions", link: "/support/support-categories/breastfeeding", img: "stock1.jpg" },
+        { header: "Breastfeeding & Ideal Positions", link: "/support/support-categories/breast-feeding", img: "stock1.jpg" },
         { header: "Newborn Feedings", link: "/support/support-categories/newborn-feedings", img: "support/newborn-feeding.jpg" },
         { header: "Weight Gain in Newborn Babies", link: "/support/support-categories/weight-gain-newborns", img: "support/baby.jpg" },
         { header: "Newborn Sleep", link: "/support/support-categories/newborn-sleep", img: "support/baby-sleeping.jpg" },

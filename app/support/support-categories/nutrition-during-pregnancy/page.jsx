@@ -4,6 +4,11 @@ export default function NutritionPregnancy() {
   return (
     <div className="">
       <SH>Nutrition During Pregnancy</SH>
+      <div className="flex justify-center  mb-10">
+        <img src="/support/nutrition2.jpg" alt="Nutrition During Pregnancy" width={640} />
+
+      </div>
+
       <SP>
        Pregnancy is a very special time when you carry not just yourself, but also a little life. During this period, your body works to meet not only your own needs but also those of your baby. That’s why nutrition during pregnancy is of great importance for both your health and your baby’s well-being.
       </SP>

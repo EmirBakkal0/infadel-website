@@ -4,6 +4,9 @@ export default function Nutrition() {
   return (
     <div className="">
       <SH>Pre Pregnancy Nutrition: Preparing for a New Chapter in Life</SH>
+      <div className=" flex justify-center  mb-10">
+        <img src="/support/nutrition.jpg" alt="Pre Pregnancy Nutrition" width={640} />
+      </div>
       <SP>
         Pregnancy is not just the process of bringing a baby into the world — it
         is also a unique time of physical, emotional, and mental transformation.

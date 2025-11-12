@@ -6,6 +6,10 @@ export default function PregnancyMentalHealth() {
       <SH>
         Mental Health During Pregnancy: A Journey That Embraces Your Spirit
       </SH>
+      <div className=" flex justify-center  mb-10">
+        <img src="/support/mental-health2.jpg" alt="Mental Health During Pregnancy" width={640} />
+
+      </div>
       <SP>
         Pregnancy is not only full of physical elevation but also a deep process
         of emotional and mental change. Hormonal fluctuations, transformations

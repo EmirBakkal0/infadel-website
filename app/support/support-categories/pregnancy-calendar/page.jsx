@@ -4,6 +4,9 @@ export default function PregnancyCalendar() {
   return (
     <div className="">
       <SH>Pregnancy Calendar: A 40‑Week Miracle</SH>
+      <div className=" flex justify-center  mb-10">
+        <img src="/support/calendar.jpg" alt="Pregnancy Calendar" width={640} />
+      </div>
       <SP>
        Pregnancy is a story that grows with time. Following it week by week helps you understand the changes in your body and gently accompany each new development. A “calendar” can serve as a guide to the spirit of each week, helping you live this process with love. Imagining your baby’s growth weekly strengthens the bond between you.
       </SP>
