@@ -1,16 +1,12 @@
 import Image from "next/image";
 import Carousel from "@/components/Carousel";
 import Link from 'next/link'
-
+import BouncingLogo from "@/components/BouncingLogo";
 export default function Home() {
   return (
     <main>
       <Carousel />
-      <div className="hidden md:absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:flex flex-row justify-center items-center bg-[var(--color-card)] opacity-70 hover:opacity-90 transition p-5 rounded-2xl">
-        <img src="logo.png" alt="Infadel Logo" width={250} className="p-6  border-r-black border-r-2 "/>
-        <h1 className="text-3xl font-[delius] p-4 m-2">Happy Bellies <br></br> Happy Babies</h1>
-        
-      </div>
+      <BouncingLogo />
       <section>
         <div className="container mx-auto ">
         <div className="grid md:grid-cols-2 p-10 gap-5">
