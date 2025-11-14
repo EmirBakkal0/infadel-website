@@ -66,7 +66,7 @@ export default function Home() {
             We are here to help you with any questions or concerns you may have about our products. Explore our support topics below by clicking the image.
           </p>
            <Link href="/support" className="hover:scale-105 hover:opacity-80 transition-transform">
-            <img src="stock4.jpg" alt="products" width={800} className="rounded-2xl " />
+            <img src="stock4.webp" alt="products" width={800} className="rounded-2xl " />
           </Link>
       </div>
 

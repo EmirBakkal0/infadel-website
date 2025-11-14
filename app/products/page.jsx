@@ -145,39 +145,54 @@ ALAC Baby Food offers convenience for parents and a safe, nutritious start for b
           imgfolder="alacBabyFood/apple"
           length={1}
           header="ALAC Apple Puree "
-          p=" ALAC Apple Puree is a delicious and nutritious option for your baby's first solid foods. Made from carefully selected apples, this puree is rich in essential vitamins and fiber that support healthy digestion and overall growth. The natural sweetness of apples makes it appealing to little taste buds, helping to develop a love for fruits from an early age. Free from preservatives and additives, ALAC Apple Puree provides a safe and wholesome choice for your baby's dietary needs.
-          " 
+          p="Apple puree offers a safe start for babies, with its mild flavor and easy-to-digest texture. Therefore, it is a practical alternative in situations requiring fast use."
+          list={["It's light and easy to digest.","It's rich in vitamins and fiber.","It contains no additives.","It's sugar-free."]}
+
+
+          
           /> <ProductCardCarousel
           imgfolder="alacBabyFood/apricot"
           length={1}
-          header="ALAC Apricot Puree "
-          p=" ALAC Apricot Puree is a delightful and nutritious option for your baby's introduction to solid foods. Made from carefully selected apricots, this puree is packed with essential vitamins, minerals, and antioxidants that support healthy growth and development. The natural sweetness and smooth texture of apricots make it appealing to little taste buds, helping to cultivate a love for fruits from an early age. Free from preservatives and additives, ALAC Apricot Puree offers a safe and wholesome choice for your baby's dietary needs." 
+          header="ALAC Apricot Puree"
+          p="Apricots are one of the fruits that soothe babies' digestive systems and stimulate their appetite with their natural sweetness during the transition to solid foods."
+          list={["It's rich in fiber and supports digestion.","It regulates bowel movements and helps reduce constipation.","Its naturally sweet and mild flavor is easily accepted by babies.","It's rich in vitamin A and supports the immune system.","It contains no additives.","It's sugar-free."]}
+          
+            
           /> 
           <ProductCardCarousel
           imgfolder="alacBabyFood/carrot-apple"
           length={1}
           header="ALAC Carrot-Apple Mix "
-          p=" ALAC Carrot-Apple Mix is a delightful and nutritious option for your baby's introduction to solid foods. Made from carefully selected carrots and apples, this puree is packed with essential vitamins, minerals, and antioxidants that support healthy growth and development. The natural sweetness and smooth texture make it appealing to little taste buds, helping to cultivate a love for fruits and vegetables from an early age. Free from preservatives and additives, ALAC Carrot- Apple Puree offers a safe and wholesome choice for your baby's dietary needs." 
+          p="Apple and carrots are a popular combination because they're easy on babies' palates, have a mild flavor, and are easy to digest." 
+          list={["It is light and easy to digest.","Thanks to its natural sweetness, it is easily accepted by babies.","Contains vitamin C and fiber; supports the immune and digestive system.","It is rich in beta carotene (vitamin A), which is important for eye and skin health.","It helps bowel regularity because it contains fiber.","It contains no additives.","It's sugar-free."]}
           /> 
+
+
           <ProductCardCarousel
           imgfolder="alacBabyFood/peach"
           length={1}
           header="ALAC Peach Puree "
-          p=" ALAC Peach Puree is a delightful and nutritious option for your baby's introduction to solid foods. Made from carefully selected peaches, this puree is packed with essential vitamins, minerals, and antioxidants that support healthy growth and development. The natural sweetness and smooth texture make it appealing to little taste buds, helping to cultivate a love for fruits from an early age. Free from preservatives and additives, ALAC Peach Puree offers a safe and wholesome choice for your baby's dietary needs." 
+          p=" Peaches are one of the fruits babies love to eat when they start solid foods. With their soft texture, mild flavor, and refreshing taste, peaches are among the fruits that suit babies' plates."
+          list={["The fiber it contains supports the digestive system of babies.","It is rich in vitamins A, C and E and contributes to the immune system.","Thanks to their light texture, they have a low risk of gas.","It contains no additives.","It's sugar-free."]}
           /> 
+
           <ProductCardCarousel
           imgfolder="alacBabyFood/pear"
           length={1}
           header="ALAC Pear Puree "
-          p=" ALAC Pear Puree is a delightful and nutritious option for your baby's introduction to solid foods. Made from carefully selected pears, this puree is packed with essential vitamins, minerals, and antioxidants that support healthy growth and development. The natural sweetness and smooth texture make it appealing to little taste buds, helping to cultivate a love for fruits from an early age. Free from preservatives and additives, ALAC Pear Puree offers a safe and wholesome choice for your baby's dietary needs." 
-          /> 
+          p="Pears are naturally soft and sweet, making them a favorite among babies. Jarred formula saves mothers time and offers ease of use outside.
+          Pear is known as a “compatible fruit” in baby nutrition."
+          list={["Its rich in fiber and support digestion.","The risk of allergy is low and it is easily preferred as the first fruit.","It helps regulate bowel movements.","It contains no additives.","It's sugar-free."]}
+        /> 
           <ProductCardCarousel
           imgfolder="alacBabyFood/strawberry-banana"
           length={1}
           header="ALAC Strawberry Banana Oat Mix "
-          p=" ALAC Strawberry Banana Oat Mix is a delightful and nutritious option for your baby's introduction to solid foods. Made from carefully selected strawberries, bananas, and oats, this mix is packed with essential vitamins, minerals, and antioxidants that support healthy growth and development. The natural sweetness and smooth texture make it appealing to little taste buds, helping to cultivate a love for fruits and grains from an early age. Free from preservatives and additives, ALAC Strawberry Banana Oat Mix offers a safe and wholesome choice for your baby's dietary needs." 
+          p="A combination of oats, strawberries, and bananas offers a balanced meal with both grains and fruit." 
+          list={["It contains carbohydrates and provides long-lasting satiety.","It is high in fiber and supports digestion.","It is rich in potassium and supports muscle and nervous system development.","It contains no additives.","It's sugar-free."]}
           /> 
 
+           
       
           
           
