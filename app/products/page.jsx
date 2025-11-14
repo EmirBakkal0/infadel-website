@@ -11,7 +11,7 @@ function Products() {
         <img src="table2.png" alt="" className="rounded-xl" />
         <div>
           <h1 className="text-3xl md:text-4xl font-bold text-center mb-5">Products for Babies</h1>
-          <p>
+          <p  className="text-center text-pretty">
           Infadel offers a range of infant formulas and follow-on milks designed to support the healthy growth and development of babies from birth to 36 months. Our products are carefully formulated to meet the nutritional needs of infants and young children, providing essential vitamins, minerals, and nutrients for optimal health.
           </p>
         </div>
@@ -80,7 +80,16 @@ Proper nutrition plays a vital role in their growth journey. Since their stomach
       </div>
 
 
-      
+      <div className="grid md:grid-cols-2 mt-16 mb-10 justify-center items-center gap-12 font-[delius]">
+        <img src="alac.jpg" alt="" className="rounded-xl" />
+        <div>
+          <h1 className="text-3xl md:text-4xl font-bold text-center mb-5"> Products for Growing Babies</h1>
+          <p className="text-center text-pretty">
+          ALAC Cereals and Baby Foods are specially designed to support your baby's transition to solid foods after six months of age. These products are crafted with care to ensure they provide essential nutrients while being easy to digest for your little one.
+          </p>
+        </div>
+
+    </div>
 
 
 
@@ -111,11 +120,11 @@ ALAC Baby Food offers convenience for parents and a safe, nutritious start for b
       </div>
 
 
-<div className="grid md:grid-cols-2 mt-16 mb-10 justify-center items-center gap-12 font-[delius]">
+    <div className="grid md:grid-cols-2 mt-16 mb-10 justify-center items-center gap-12 font-[delius]">
         <img src="table.png" alt="" className="rounded-xl" />
         <div>
           <h1 className="text-3xl md:text-4xl font-bold text-center mb-5"> Products for Mothers and Growing Children</h1>
-          <p>
+          <p className="text-center text-pretty">
           Infadel offers a range of nutritional products designed to support the health and well-being of mothers, teenagers, and children. Our products are carefully formulated to meet the unique nutritional needs of each life stage, providing essential vitamins, minerals, and proteins for optimal growth and development.
           </p>
         </div>
