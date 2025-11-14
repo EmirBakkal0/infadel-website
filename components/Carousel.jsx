@@ -19,7 +19,7 @@ export default function Carousel() {
       {slides.map((index) => (
         <CarouselSlide
           key={index}
-          img={`/carousel/${index + 1}.jpg`}
+          img={`/carousel/${index + 1}.webp`}
           // sm="100"
           // xs="75"
         />

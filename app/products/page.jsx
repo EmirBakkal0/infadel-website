@@ -8,7 +8,7 @@ function Products() {
     >
 
     <div className="grid md:grid-cols-2 mb-10 justify-center items-center gap-12 font-[delius]">
-        <img src="table2.png" alt="" className="rounded-xl" />
+        <img src="table2.webp" alt="" className="rounded-xl" />
         <div>
           <h1 className="text-3xl md:text-4xl font-bold text-center mb-5">Products for Babies</h1>
           <p  className="text-center text-pretty">
@@ -185,7 +185,7 @@ ALAC Baby Food offers convenience for parents and a safe, nutritious start for b
 
 
     <div className="grid md:grid-cols-2 mt-16 mb-10 justify-center items-center gap-12 font-[delius]">
-        <img src="table.png" alt="" className="rounded-xl" />
+        <img src="table.webp" alt="" className="rounded-xl" />
         <div>
           <h1 className="text-3xl md:text-4xl font-bold text-center mb-5"> Products for Mothers and Growing Children</h1>
           <p className="text-center text-pretty">
